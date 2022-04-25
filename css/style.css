@@ -1,0 +1,104 @@
+body{
+    background: #fd4705;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/*Inicio de estilos header*/
+
+header{
+    position: relative;
+    width: 100%;     
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fd4705;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: 5px 10px;
+    list-style: none;
+}
+
+header nav #logo a img{
+    width: 150px;
+}
+
+nav ul li a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: .5s;
+    border: 3px solid transparent;
+    border-color: #000000;
+}
+
+header #hero{
+    width: 100%;
+    position: relative;
+}
+
+header #hero h1{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    color: #eeeeee;
+    background: #030c3a;
+}
+
+header #hero img{
+    width: 100%;
+}
+
+/*Hover es la animacion que se le da a un item*/
+nav ul li a:hover{
+    background: #000000;
+    color: #ffffff;
+}
+
+/*Finalizacion de estilos header*/
+
+
+/*Inicio de estilos de main*/
+
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+main #welcome{
+    background: #fd4705;
+    width: 100%;
+}
+
+main #welcome .row{
+    background: #ffffff;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+main #welcome .row #cont-text{
+    width: 50%;
+    padding: 200px 60px;
+}
+
+main #welcome .row #contImg img{
+    width: 100%;
+    max-width:  500px;
+}
+
+
